@@ -19,6 +19,7 @@ const winning_patterns=[
 
 const resetGame=()=>{
     turn_O=true;
+    count = 0;
     enableboxes();
     msgContainer.classList.add("hide")
 }
